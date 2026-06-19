@@ -14,34 +14,34 @@ Tester: delensive
 
 ## 1. Form Authentication
 
-- [ ] Check login page opens successfully
-- [ ] Check login with valid username and valid password
-- [ ] Check login with valid username and invalid password
-- [ ] Check login with invalid username and valid password
-- [ ] Check login with empty username
-- [ ] Check login with empty password
-- [ ] Check login with both fields empty
-- [ ] Check error message after invalid login
-- [ ] Check successful logout
+- [x] Check login page opens successfully
+- [x] Check login with valid username and valid password
+- [x] Check login with valid username and invalid password
+- [x] Check login with invalid username and valid password
+- [x] Check login with empty username
+- [x] Check login with empty password
+- [x] Check login with both fields empty
+- [x] Check error message after invalid login
+- [x] Check successful logout
 
 ---
 
 ## 2. Checkboxes
 
-- [ ] Check that Checkboxes page opens successfully
-- [ ] Check initial state of both checkboxes
-- [ ] Check user can select unchecked checkbox
-- [ ] Check user can unselect checked checkbox
-- [ ] Check both checkboxes can be selected at the same time
-- [ ] Check both checkboxes can be unselected at the same time
+- [x] Check that Checkboxes page opens successfully
+- [x] Check initial state of both checkboxes
+- [x] Check user can select unchecked checkbox
+- [x] Check user can unselect checked checkbox
+- [x] Check both checkboxes can be selected at the same time
+- [x] Check both checkboxes can be unselected at the same time
 
 ---
 
 ## 3. Dropdown
 
-- [ ] Check that Dropdown page opens successfully
-- [ ] Check dropdown opens after click
-- [ ] Check Option 1 can be selected
-- [ ] Check Option 2 can be selected
-- [ ] Check selected value is displayed correctly
-- [ ] Check user cannot select disabled default option
+- [x] Check that Dropdown page opens successfully
+- [x] Check dropdown opens after click
+- [x] Check Option 1 can be selected
+- [x] Check Option 2 can be selected
+- [x] Check selected value is displayed correctly
+- [x] Check user cannot select disabled default option
