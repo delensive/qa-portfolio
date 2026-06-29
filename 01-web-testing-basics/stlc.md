@@ -94,3 +94,27 @@ The summary may include:
 
 Retesting checks a specific fixed bug.
 Regression testing checks that other existing functionality was not broken by the changes.
+
+## My understanding
+
+SDLC describes how the product is developed.  
+STLC describes how the testing process is organized.
+
+QA should participate in requirement analysis because many problems can be found before development starts. QA checks requirements for unclear logic, missing scenarios, contradictions and risks.
+
+A checklist is a short list of checks.  
+A test case is a detailed test scenario with steps, test data and expected result.
+
+Retesting means checking whether a specific fixed bug was actually fixed.  
+Regression testing means checking that existing functionality was not broken after changes.
+
+After a login form bug fix, I would check:
+- successful login with valid credentials
+- login with empty username
+- login with empty password
+- login with both fields empty
+- invalid username and invalid password
+- very long input values
+- special characters
+- logout
+- password recovery, if it is required
