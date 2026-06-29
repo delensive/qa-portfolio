@@ -72,3 +72,19 @@ A login feature can go through the SDLC like this:
 5. QA tests valid login, invalid login, empty fields and logout.
 6. The feature is released.
 7. The team monitors user issues after release.
+
+## My understanding
+
+QA should not be involved only after development, because many problems can be found earlier: in requirements, design, logic and user scenarios. The later a defect is found, the more expensive it can be to fix.
+
+Waterfall is a sequential model where stages go one after another: requirements, design, development, testing and release. It can be useful when requirements are stable and documentation is very important.
+
+Agile is an iterative approach where the product is developed in small parts. It allows the team to get feedback earlier and adapt to changes faster.
+
+Scrum is an Agile framework where work is organized in sprints.
+
+Kanban is a workflow approach where tasks move through statuses such as Backlog, To Do, In Progress, Testing and Done.
+
+A task in Testing means that development is finished and QA is checking whether the feature works according to requirements.
+
+QA can find problems before coding during requirements review.
