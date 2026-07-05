@@ -2,6 +2,11 @@
 
 This repository contains my practical QA learning projects.
 
+## Professional Experience
+
+- AI Trainer (Computer Vision Annotation Intern) — Gazprom MKS
+- Manual QA Intern — Telecommunications Project (NDA)
+ 
 ## Areas
 
 - Web testing
