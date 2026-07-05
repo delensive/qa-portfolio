@@ -78,12 +78,19 @@ The development team actively used modern AI-assisted development tools during t
 ---
 
 ## Gallery
+
 <img width="300" height="626" alt="image" src="https://github.com/user-attachments/assets/07fc1927-8283-4d85-ba41-3d90b943ed5f" />
+
 <img width="375" height="574" alt="image" src="https://github.com/user-attachments/assets/f13fff91-4f79-494c-8c82-d471124092b6" />
+
 <img width="438" height="289" alt="image" src="https://github.com/user-attachments/assets/7e729905-ba5a-47b4-a529-c7a3ede7c9a3" />
+
 <img width="807" height="709" alt="image" src="https://github.com/user-attachments/assets/b285be08-75d1-4fa1-96ff-8c8769cd6a97" />
+
 <img width="1234" height="723" alt="image" src="https://github.com/user-attachments/assets/b0109d13-5417-485b-8a71-3dcb3046a730" />
+
 <img width="1325" height="743" alt="image" src="https://github.com/user-attachments/assets/35e40935-cd93-41d0-9952-b64df3f91f20" />
+
 
 
 
