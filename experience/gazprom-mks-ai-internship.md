@@ -4,7 +4,7 @@
 **Role:** AI Trainer / Computer Vision Annotation Intern  
 **Employment type:** Internship  
 **Location:** Saint Petersburg, Russia  
-**Period:** *(июнь 2026 - июль 2026)*
+**Period:** *(June 2026 - July 2026)*
 
 ---
 
