@@ -4,7 +4,7 @@
 **Role:** AI Trainer / Computer Vision Annotation Intern  
 **Employment type:** Internship  
 **Location:** Saint Petersburg, Russia  
-**Period:** *(укажи свои даты)*
+**Period:** *(июнь-июль 2026)*
 
 ---
 
@@ -52,8 +52,12 @@ The goal of the project was to prepare high-quality datasets for training machin
 ---
 
 ## Gallery
+
 <img width="2560" height="1920" alt="image" src="https://github.com/user-attachments/assets/65bf24a1-594f-40ad-8797-72efaf76437e" />
+
 <img width="2560" height="1920" alt="image" src="https://github.com/user-attachments/assets/4e9f3a0e-7c6d-4c96-9d24-bc5683c8c5bd" />
+
 <img width="1920" height="2560" alt="image" src="https://github.com/user-attachments/assets/57fddd0b-81a2-4ac8-bb3f-d61e7cc4007b" />
+
 
 
