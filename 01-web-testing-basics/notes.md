@@ -1,17 +1,17 @@
-# Day 1 Notes
+# Заметки. День 1
 
-## What is QA?
+## Что такое QA?
 
-QA is the process of improving product quality and reducing risks before release.
+QA — это процесс повышения качества продукта и снижения рисков перед релизом.
 
-## What is testing?
+## Что такое тестирование?
 
-Testing is the practical activity of checking whether a product works as expected.
+Тестирование — это практическая деятельность по проверке того, что продукт работает так, как ожидается.
 
-## What risks does QA reduce?
+## Какие риски снижает QA?
 
-QA helps reduce business risks, user experience risks, technical risks and financial risks.
+QA помогает снизить бизнес-риски, риски пользовательского опыта, технические и финансовые риски.
 
-## Why do I want to start from QA?
+## Почему я хочу начать именно с QA?
 
-I want to start from QA because it helps me understand how software works, how products are built, and how to think critically about quality.
+Я хочу начать с QA, потому что это помогает понять, как работает софт, как создаются продукты, и как критически мыслить о качестве.

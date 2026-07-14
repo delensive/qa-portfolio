@@ -1,21 +1,31 @@
-# QA Portfolio
+# QA Портфолио
 
-This repository contains my practical QA learning projects.
+Этот репозиторий содержит мои практические учебные проекты по QA.
 
-## Professional Experience
+## Резюме
 
-- Manual QA Intern — Telecommunications Project (NDA)
-- AI Trainer (Computer Vision Annotation Intern) — Gazprom MKS
- 
-## Areas
+Актуальное резюме — [RESUME.md](./RESUME.md)
 
-- Web testing
-- Test documentation
-- Bug reports
+## Профессиональный опыт
+
+- Manual QA Intern — телекоммуникационный проект, клиент Tele2 (NDA)
+- AI Trainer (стажёр по разметке данных для Computer Vision) — Газпром МКС
+
+## Проекты
+
+- **[F2F Bank — E2E тесты](https://github.com/delensive/f2f-bank-tests)** — тестовое задание от Ozon: автоматизированные end-to-end тесты (Playwright + TypeScript) для веб-приложения банковских переводов. В ходе тестирования найдено 9 багов и особенностей, включая критичный (потеря средств при переводе на несуществующий номер) и кросс-браузерный security-баг (логаут не инвалидирует токен авторизации в WebKit).
+- **Web Testing Basics** (эта папка) — чек-листы, баг-репорты и конспекты по основам ручного тестирования.
+
+## Направления
+
+- Веб-тестирование
+- Тестовая документация
+- Баг-репорты
+- API-тестирование (Postman)
 - SQL
-- API testing
-- Automation testing
+- Автоматизированное E2E-тестирование (Playwright, TypeScript)
 
-## Goal
+## Цель
 
-My goal is to become a strong technical QA engineer and grow into product and engineering roles.
+Моя цель — стать сильным техническим QA-инженером и вырасти в продуктовые и инженерные роли.
+

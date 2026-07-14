@@ -1,120 +1,120 @@
-# STLC Notes
+# Заметки по STLC
 
-## 1. What is STLC?
+## 1. Что такое STLC?
 
-STLC means Software Testing Life Cycle.
-It describes the testing process from requirement analysis to test closure.
+STLC (Software Testing Life Cycle) — жизненный цикл тестирования программного обеспечения.
+Он описывает процесс тестирования от анализа требований до закрытия тестирования.
 
-## 2. Main STLC stages
+## 2. Основные этапы STLC
 
-1. Requirement Analysis
-2. Test Planning
-3. Test Case Design
-4. Test Environment Setup
-5. Test Execution
-6. Bug Reporting
-7. Retesting
-8. Regression Testing
-9. Test Closure
+1. Анализ требований (Requirement Analysis)
+2. Планирование тестирования (Test Planning)
+3. Разработка тест-кейсов (Test Case Design)
+4. Подготовка тестового окружения (Test Environment Setup)
+5. Выполнение тестирования (Test Execution)
+6. Репортинг багов (Bug Reporting)
+7. Повторное тестирование (Retesting)
+8. Регрессионное тестирование (Regression Testing)
+9. Закрытие тестирования (Test Closure)
 
-## 3. Requirement Analysis
+## 3. Анализ требований
 
-At this stage QA reviews requirements and looks for unclear logic, missing scenarios and possible risks.
+На этом этапе QA изучает требования и ищет неясную логику, недостающие сценарии и возможные риски.
 
-Example:
-If the requirement says "User can log in", QA should ask what happens with invalid password, empty fields, blocked account and successful logout.
+Пример:
+Если в требовании написано «Пользователь может войти в систему», QA должен уточнить, что происходит при неверном пароле, пустых полях, заблокированном аккаунте и успешном выходе.
 
-## 4. Test Planning
+## 4. Планирование тестирования
 
-At this stage QA decides what should be tested, what should not be tested now, what risks exist and what resources are needed.
+На этом этапе QA решает, что нужно протестировать, что не нужно тестировать сейчас, какие есть риски и какие нужны ресурсы.
 
-## 5. Test Case Design
+## 5. Разработка тест-кейсов
 
-At this stage QA creates checklists, test cases and test data.
+На этом этапе QA создаёт чек-листы, тест-кейсы и тестовые данные.
 
-Example:
-For login functionality, QA can prepare checks for valid login, invalid password, empty username, empty password and logout.
+Пример:
+Для функции логина QA может подготовить проверки на валидный вход, неверный пароль, пустой логин, пустой пароль и выход из системы.
 
-## 6. Test Environment Setup
+## 6. Подготовка тестового окружения
 
-At this stage QA makes sure that the test environment is ready.
+На этом этапе QA убеждается, что тестовое окружение готово.
 
-Examples:
+Примеры:
 
-* test website is available
-* test account exists
-* required test data is prepared
-* correct build/version is deployed
+* тестовый сайт доступен
+* тестовый аккаунт существует
+* подготовлены необходимые тестовые данные
+* развёрнута правильная сборка/версия
 
-## 7. Test Execution
+## 7. Выполнение тестирования
 
-At this stage QA runs test cases or checklists and compares actual results with expected results.
+На этом этапе QA выполняет тест-кейсы или чек-листы и сравнивает фактический результат с ожидаемым.
 
-## 8. Bug Reporting
+## 8. Репортинг багов
 
-If actual result is different from expected result, QA creates a bug report.
+Если фактический результат отличается от ожидаемого, QA создаёт баг-репорт.
 
-A good bug report should include:
+Хороший баг-репорт должен включать:
 
-* title
-* environment
-* steps to reproduce
-* expected result
-* actual result
-* severity
-* attachments if needed
+* заголовок
+* окружение
+* шаги воспроизведения
+* ожидаемый результат
+* фактический результат
+* severity (критичность)
+* вложения, если нужно
 
-## 9. Retesting
+## 9. Retesting (повторное тестирование)
 
-Retesting means checking whether a specific bug was fixed.
+Retesting означает проверку того, был ли исправлен конкретный баг.
 
-Example:
-If the bug was about an incorrect error message for empty password, QA repeats the same steps after the fix.
+Пример:
+Если баг был связан с некорректным сообщением об ошибке при пустом пароле, QA повторяет те же шаги после исправления.
 
-## 10. Regression Testing
+## 10. Regression Testing (регрессионное тестирование)
 
-Regression testing means checking that existing functionality still works after changes.
+Регрессионное тестирование означает проверку того, что существующая функциональность продолжает работать после изменений.
 
-Example:
-After fixing login validation, QA should also check successful login, invalid login and logout.
+Пример:
+После исправления валидации логина QA также должен проверить успешный вход, невалидный вход и выход из системы.
 
-## 11. Test Closure
+## 11. Test Closure (закрытие тестирования)
 
-At this stage QA summarizes testing results.
+На этом этапе QA подводит итоги тестирования.
 
-The summary may include:
+Итог может включать:
 
-* what was tested
-* how many bugs were found
-* which bugs were fixed
-* which risks remain
-* whether the feature is ready for release
+* что было протестировано
+* сколько багов было найдено
+* какие баги были исправлены
+* какие риски остаются
+* готова ли функция к релизу
 
 ## 12. Retesting vs Regression Testing
 
-Retesting checks a specific fixed bug.
-Regression testing checks that other existing functionality was not broken by the changes.
+Retesting проверяет конкретный исправленный баг.
+Regression Testing проверяет, что остальная существующая функциональность не была сломана изменениями.
 
-## My understanding
+## Моё понимание
 
-SDLC describes how the product is developed.  
-STLC describes how the testing process is organized.
+SDLC описывает, как разрабатывается продукт.  
+STLC описывает, как организован процесс тестирования.
 
-QA should participate in requirement analysis because many problems can be found before development starts. QA checks requirements for unclear logic, missing scenarios, contradictions and risks.
+QA должен участвовать в анализе требований, потому что многие проблемы можно найти ещё до начала разработки. QA проверяет требования на неясную логику, недостающие сценарии, противоречия и риски.
 
-A checklist is a short list of checks.  
-A test case is a detailed test scenario with steps, test data and expected result.
+Чек-лист — это короткий список проверок.  
+Тест-кейс — это подробный тестовый сценарий с шагами, тестовыми данными и ожидаемым результатом.
 
-Retesting means checking whether a specific fixed bug was actually fixed.  
-Regression testing means checking that existing functionality was not broken after changes.
+Retesting означает проверку того, действительно ли был исправлен конкретный баг.  
+Regression Testing означает проверку того, что существующая функциональность не была сломана после изменений.
 
-After a login form bug fix, I would check:
-- successful login with valid credentials
-- login with empty username
-- login with empty password
-- login with both fields empty
-- invalid username and invalid password
-- very long input values
-- special characters
-- logout
-- password recovery, if it is required
+После исправления бага в форме логина я бы проверил:
+- успешный вход с валидными данными
+- вход с пустым логином
+- вход с пустым паролем
+- вход с обоими пустыми полями
+- невалидный логин и невалидный пароль
+- очень длинные значения ввода
+- специальные символы
+- выход из системы
+- восстановление пароля, если оно требуется

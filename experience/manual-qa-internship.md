@@ -1,83 +1,83 @@
 # Manual QA Intern
 
-**Company:** Confidential Software Development Company (NDA)  
-**Client:** Tele2  
-**Role:** Manual QA Intern  
-**Employment type:** Internship  
-**Project type:** Web & Mobile Workforce Management System  
-**Period:** *(June 2026 - July 2026)*
+**Компания:** Confidential Software Development Company (NDA)  
+**Клиент:** Tele2  
+**Роль:** Manual QA Intern  
+**Тип занятости:** Стажировка  
+**Тип проекта:** Web & Mobile Workforce Management System  
+**Период:** *(начало июня 2026 — 6 июля 2026)*
 
 ---
 
-## About the Project
+## О проекте
 
-Participated in manual testing of a workforce management system developed for a telecommunications client.
+Участвовал в ручном тестировании системы управления полевыми сотрудниками (workforce management system), разработанной для телекоммуникационного клиента.
 
-The application was designed to manage field service operations by connecting customers, dispatchers and field workers within a single platform.
+Приложение было создано для управления полевыми операциями и объединяло клиентов, диспетчеров и полевых сотрудников в единой платформе.
 
-The system allowed customers to create service requests, dispatchers to assign tasks, warehouse operations to be tracked, and field workers to complete jobs using a mobile application. After completion, reports and work results were returned to the customer.
-
----
-
-## Responsibilities
-
-- Performed manual testing of web and mobile application functionality.
-- Executed functional, positive and negative test scenarios.
-- Created and maintained checklists for new features.
-- Reported defects with detailed reproduction steps.
-- Performed regression testing after bug fixes.
-- Verified implemented functionality before release.
-- Validated business logic for different user roles.
-- Collaborated with developers during bug investigation and verification.
-- Participated in testing features developed during the internship project.
+Система позволяла клиентам создавать заявки на обслуживание, диспетчерам — назначать задачи, отслеживать складские операции, а полевым сотрудникам — выполнять работу с помощью мобильного приложения. После завершения работ отчёты и результаты передавались клиенту.
 
 ---
 
-## User Roles Tested
+## Обязанности
 
-- Customer
-- Dispatcher
-- Field Worker
-- Administrator
-
----
-
-## Main Functional Areas
-
-- Authentication and authorization
-- Service request creation
-- Task assignment
-- Warehouse item management
-- Work status updates
-- Mobile workflow
-- Reporting
-- User management
+- Выполнял ручное тестирование функциональности веб- и мобильного приложения.
+- Выполнял функциональные, позитивные и негативные тестовые сценарии.
+- Создавал и поддерживал чек-листы для новых фич.
+- Репортил дефекты с подробными шагами воспроизведения.
+- Выполнял регрессионное тестирование после исправления багов.
+- Проверял реализованную функциональность перед релизом.
+- Валидировал бизнес-логику для разных ролей пользователей.
+- Взаимодействовал с разработчиками при расследовании и верификации багов.
+- Участвовал в тестировании функций, разработанных в ходе проекта-стажировки.
 
 ---
 
-## Skills Obtained
+## Протестированные роли пользователей
+
+- Customer (клиент)
+- Dispatcher (диспетчер)
+- Field Worker (полевой сотрудник)
+- Administrator (администратор)
+
+---
+
+## Основные функциональные области
+
+- Аутентификация и авторизация
+- Создание заявок на обслуживание
+- Назначение задач
+- Управление складскими позициями
+- Обновление статусов работ
+- Мобильный workflow
+- Отчётность
+- Управление пользователями
+
+---
+
+## Полученные навыки
 
 - Manual Testing
-- Functional Testing
-- Regression Testing
-- Smoke Testing
-- Test Documentation
-- Bug Reporting
-- Web Testing
-- Mobile Testing
-- Business Logic Validation
+- Функциональное тестирование
+- Регрессионное тестирование
+- Smoke-тестирование
+- Тестовая документация
+- Репортинг багов
+- Веб-тестирование
+- Мобильное тестирование
+- Валидация бизнес-логики
 - SDLC
 - STLC
 
 ---
 
-## Development Environment
+## Среда разработки
 
-The development team actively used modern AI-assisted development tools during the project.
+Команда разработки активно использовала современные AI-инструменты в процессе разработки проекта.
 
 ---
 
-## Gallery
+## Галерея
 
 <img width="300" height="626" alt="image" src="https://github.com/user-attachments/assets/59b23de2-d60f-4384-85e5-95893bdf1eac" />
 
@@ -98,8 +98,3 @@ The development team actively used modern AI-assisted development tools during t
 <img width="1139" height="403" alt="image" src="https://github.com/user-attachments/assets/cff5ee7f-4eb0-4f85-89cc-2131b6ad975a" />
 
 <img width="785" height="513" alt="image" src="https://github.com/user-attachments/assets/d0458a95-31a0-4764-b901-8847546560ca" />
-
-
-
-
-

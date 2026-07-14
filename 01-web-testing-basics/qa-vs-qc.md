@@ -1,59 +1,59 @@
 # QA vs QC vs Testing
 
-## 1. What is Testing?
+## 1. Что такое Testing (тестирование)?
 
-Testing is the practical process of checking whether a product works as expected.
-For example, a tester can check login, logout, form validation, checkboxes, dropdowns and error messages.
+Тестирование — это практический процесс проверки того, что продукт работает так, как ожидается.
+Например, тестировщик может проверить вход, выход, валидацию форм, чекбоксы, выпадающие списки и сообщения об ошибках.
 
-## 2. What is Quality Control?
+## 2. Что такое Quality Control (контроль качества)?
 
-Quality Control is the process of checking the quality of an already developed product or feature.
-For example, when a login form is already implemented, QC means checking it against requirements and reporting defects.
+Quality Control — это процесс проверки качества уже разработанного продукта или функции.
+Например, когда форма логина уже реализована, QC означает проверку её на соответствие требованиям и репортинг дефектов.
 
-## 3. What is Quality Assurance?
+## 3. Что такое Quality Assurance (обеспечение качества)?
 
-Quality Assurance is a broader process focused on preventing quality problems before they happen.
-QA includes reviewing requirements, thinking about risks, preparing test documentation, improving processes and helping the team build a better product.
+Quality Assurance — это более широкий процесс, направленный на предотвращение проблем с качеством до того, как они возникнут.
+QA включает в себя ревью требований, анализ рисков, подготовку тестовой документации, улучшение процессов и помощь команде в создании лучшего продукта.
 
-## 4. Difference between QA, QC and Testing
+## 4. Разница между QA, QC и Testing
 
-Testing is a practical activity.
-QC is focused on detecting defects in the product.
-QA is focused on improving the whole process and preventing defects.
+Testing — это практическая деятельность.
+QC сфокусирован на обнаружении дефектов в продукте.
+QA сфокусирован на улучшении всего процесса и предотвращении дефектов.
 
-Testing is part of QC.
-QC is part of QA.
+Testing является частью QC.
+QC является частью QA.
 
-## 5. Verification
+## 5. Verification (верификация)
 
-Verification means checking whether the product is built according to requirements.
+Верификация означает проверку того, что продукт построен в соответствии с требованиями.
 
-Example: checking that the Login button works according to the specification.
+Пример: проверка, что кнопка Login работает согласно спецификации.
 
-## 6. Validation
+## 6. Validation (валидация)
 
-Validation means checking whether the product solves the real user problem.
+Валидация означает проверку того, решает ли продукт реальную проблему пользователя.
 
-Example: the login form may work technically, but if the error messages are confusing, the user experience is still poor.
+Пример: форма логина может технически работать, но если сообщения об ошибках непонятны, пользовательский опыт всё равно будет плохим.
 
-## 7. Examples from my first testing task
+## 7. Примеры из моей первой тестовой задачи
 
-### Example of Testing
+### Пример Testing
 
-I checked the Form Authentication page with valid and invalid login credentials.
+Я проверил страницу Form Authentication с валидными и невалидными учётными данными.
 
-### Example of Quality Control
+### Пример Quality Control
 
-I created a checklist and bug reports for the tested pages.
+Я создал чек-лист и баг-репорты для протестированных страниц.
 
-### Example of Quality Assurance
+### Пример Quality Assurance
 
-Before development starts, QA could review the login requirements and suggest clear validation rules and error messages.
+До начала разработки QA мог бы ревьюить требования к логину и предложить понятные правила валидации и сообщения об ошибках.
 
-### Example of Verification
+### Пример Verification
 
-I verified that the login form accepts the correct username and password.
+Я верифицировал, что форма логина принимает корректные логин и пароль.
 
-### Example of Validation
+### Пример Validation
 
-I checked whether the error messages are clear and helpful for the user.
+Я проверил, насколько понятны и полезны сообщения об ошибках для пользователя.

@@ -1,10 +1,10 @@
-# Web Testing Checklist
+# Чек-лист по веб-тестированию
 
-Tested website: https://the-internet.herokuapp.com  
-Date: 2026-06-19  
-Tester: delensive
+Тестируемый сайт: https://the-internet.herokuapp.com  
+Дата: 19.06.2026  
+Тестировщик: delensive
 
-## Tested pages
+## Протестированные страницы
 
 - Form Authentication
 - Checkboxes
@@ -14,34 +14,34 @@ Tester: delensive
 
 ## 1. Form Authentication
 
-- [x] Check login page opens successfully
-- [x] Check login with valid username and valid password
-- [x] Check login with valid username and invalid password
-- [x] Check login with invalid username and valid password
-- [x] Check login with empty username
-- [x] Check login with empty password
-- [x] Check login with both fields empty
-- [x] Check error message after invalid login
-- [x] Check successful logout
+- [x] Проверить, что страница логина успешно открывается
+- [x] Проверить вход с валидным логином и валидным паролем
+- [x] Проверить вход с валидным логином и невалидным паролем
+- [x] Проверить вход с невалидным логином и валидным паролем
+- [x] Проверить вход с пустым полем логина
+- [x] Проверить вход с пустым полем пароля
+- [x] Проверить вход с обоими пустыми полями
+- [x] Проверить сообщение об ошибке при неверном входе
+- [x] Проверить успешный выход из системы (logout)
 
 ---
 
 ## 2. Checkboxes
 
-- [x] Check that Checkboxes page opens successfully
-- [x] Check initial state of both checkboxes
-- [x] Check user can select unchecked checkbox
-- [x] Check user can unselect checked checkbox
-- [x] Check both checkboxes can be selected at the same time
-- [x] Check both checkboxes can be unselected at the same time
+- [x] Проверить, что страница Checkboxes успешно открывается
+- [x] Проверить начальное состояние обоих чекбоксов
+- [x] Проверить, что пользователь может выбрать невыбранный чекбокс
+- [x] Проверить, что пользователь может снять выбор с выбранного чекбокса
+- [x] Проверить, что оба чекбокса можно выбрать одновременно
+- [x] Проверить, что оба чекбокса можно снять одновременно
 
 ---
 
 ## 3. Dropdown
 
-- [x] Check that Dropdown page opens successfully
-- [x] Check dropdown opens after click
-- [x] Check Option 1 can be selected
-- [x] Check Option 2 can be selected
-- [x] Check selected value is displayed correctly
-- [x] Check user cannot select disabled default option
+- [x] Проверить, что страница Dropdown успешно открывается
+- [x] Проверить, что выпадающий список открывается по клику
+- [x] Проверить, что можно выбрать Option 1
+- [x] Проверить, что можно выбрать Option 2
+- [x] Проверить, что выбранное значение отображается корректно
+- [x] Проверить, что пользователь не может выбрать отключённый (disabled) пункт по умолчанию

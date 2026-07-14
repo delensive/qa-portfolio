@@ -1,55 +1,55 @@
-# Bug Reports
+# Баг-репорты
 
-Tested website: https://the-internet.herokuapp.com  
-Date: 2026-06-19  
-Tester: delensive
+Тестируемый сайт: https://the-internet.herokuapp.com  
+Дата: 19.06.2026  
+Тестировщик: delensive
 
 ---
 
-## Bug 1: Incorrect error message is shown when password is empty
+## Баг 1: Некорректное сообщение об ошибке при пустом поле пароля
 
-**Page:** Form Authentication  
-**Environment:** Chrome, desktop
+**Страница:** Form Authentication  
+**Окружение:** Chrome, desktop
 
-**Steps to reproduce:**
-1. Open https://the-internet.herokuapp.com/login
-2. Enter username: `tomsmith`
-3. Leave password field empty
-4. Click the Login button
+**Шаги воспроизведения:**
+1. Открыть https://the-internet.herokuapp.com/login
+2. Ввести username: `tomsmith`
+3. Оставить поле password пустым
+4. Нажать кнопку Login
 
-**Expected result:**  
-The system should show a clear error message that the password field is required.
+**Ожидаемый результат:**  
+Система должна показывать понятное сообщение об ошибке о том, что поле пароля обязательно для заполнения.
 
-**Actual result:**  
-The system shows a generic error message: `Your password is invalid!`
+**Фактический результат:**  
+Система показывает общее сообщение об ошибке: `Your password is invalid!`
 
 **Severity:** Low  
 **Priority:** Low
 
-**Comment:**  
-The login is blocked correctly, but the error message is not specific enough. A clearer message would improve user experience.
+**Комментарий:**  
+Вход корректно блокируется, но сообщение об ошибке недостаточно конкретное. Более понятное сообщение улучшило бы пользовательский опыт.
 
 ---
 
-## Bug 2: Incorrect error message is shown when username is empty
+## Баг 2: Некорректное сообщение об ошибке при пустом поле логина
 
-**Page:** Form Authentication  
-**Environment:** Chrome, desktop
+**Страница:** Form Authentication  
+**Окружение:** Chrome, desktop
 
-**Steps to reproduce:**
-1. Open https://the-internet.herokuapp.com/login
-2. Leave username field empty
-3. Enter password: `SuperSecretPassword!`
-4. Click the Login button
+**Шаги воспроизведения:**
+1. Открыть https://the-internet.herokuapp.com/login
+2. Оставить поле username пустым
+3. Ввести password: `SuperSecretPassword!`
+4. Нажать кнопку Login
 
-**Expected result:**  
-The system should show a clear error message that the username field is required.
+**Ожидаемый результат:**  
+Система должна показывать понятное сообщение об ошибке о том, что поле логина обязательно для заполнения.
 
-**Actual result:**  
-The system shows a generic error message: `Your username is invalid!`
+**Фактический результат:**  
+Система показывает общее сообщение об ошибке: `Your username is invalid!`
 
 **Severity:** Low  
 **Priority:** Low
 
-**Comment:**  
-The system blocks login correctly, but the message could be more helpful for the user.
+**Комментарий:**  
+Система корректно блокирует вход, но сообщение могло бы быть более полезным для пользователя.

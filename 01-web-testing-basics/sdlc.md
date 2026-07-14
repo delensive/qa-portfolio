@@ -1,90 +1,90 @@
-# SDLC Notes
+# Заметки по SDLC
 
-## 1. What is SDLC?
+## 1. Что такое SDLC?
 
-SDLC means Software Development Life Cycle.  
-It describes the process of creating software from idea to release and support.
+SDLC (Software Development Life Cycle) — жизненный цикл разработки программного обеспечения.  
+Он описывает процесс создания софта от идеи до релиза и поддержки.
 
-## 2. Main SDLC stages
+## 2. Основные этапы SDLC
 
-1. Idea / Business Need
-2. Requirements
-3. Design
-4. Development
-5. Testing
-6. Release
-7. Maintenance
+1. Идея / бизнес-потребность
+2. Требования
+3. Дизайн
+4. Разработка
+5. Тестирование
+6. Релиз
+7. Поддержка
 
-## 3. Where QA participates
+## 3. Где участвует QA
 
-QA can participate in requirements review, test planning, test case creation, testing, bug reporting, release checks and post-release monitoring.
+QA может участвовать в ревью требований, планировании тестирования, создании тест-кейсов, тестировании, репортинге багов, проверках перед релизом и мониторинге после релиза.
 
 ## 4. Waterfall
 
-Waterfall is a sequential development model where each stage goes after the previous one.
+Waterfall — это последовательная модель разработки, где каждый этап идёт после предыдущего.
 
-Example:
-Requirements → Design → Development → Testing → Release
+Пример:
+Требования → Дизайн → Разработка → Тестирование → Релиз
 
-Pros:
-- Clear structure
-- Good documentation
+Плюсы:
+- Чёткая структура
+- Хорошая документация
 
-Cons:
-- Bugs and requirement problems may be found too late
+Минусы:
+- Баги и проблемы с требованиями могут обнаружиться слишком поздно
 
 ## 5. Agile
 
-Agile is an iterative approach where the product is developed in small parts.
+Agile — это итеративный подход, при котором продукт разрабатывается небольшими частями.
 
-Pros:
-- Faster feedback
-- Easier to adapt to changes
+Плюсы:
+- Более быстрая обратная связь
+- Легче адаптироваться к изменениям
 
-Cons:
-- Requires good communication and discipline
+Минусы:
+- Требует хорошей коммуникации и дисциплины
 
 ## 6. Scrum
 
-Scrum is an Agile framework where work is usually organized in sprints.
+Scrum — это Agile-фреймворк, в котором работа обычно организована в спринтах.
 
-Typical Scrum events:
-- Sprint planning
-- Daily meeting
-- Review / Demo
-- Retrospective
+Типичные события Scrum:
+- Sprint planning (планирование спринта)
+- Daily meeting (ежедневная встреча)
+- Review / Demo (обзор / демонстрация)
+- Retrospective (ретроспектива)
 
 ## 7. Kanban
 
-Kanban is a workflow approach where tasks move through columns.
+Kanban — это подход к организации работы, при котором задачи перемещаются по колонкам.
 
-Example:
+Пример:
 Backlog → To Do → In Progress → Testing → Done
 
-## 8. Example from QA work
+## 8. Пример из работы QA
 
-A login feature can go through the SDLC like this:
+Функция логина может пройти SDLC следующим образом:
 
-1. Business asks for user login.
-2. Requirements are written.
-3. Designer creates login page design.
-4. Developer implements login.
-5. QA tests valid login, invalid login, empty fields and logout.
-6. The feature is released.
-7. The team monitors user issues after release.
+1. Бизнес запрашивает функцию входа пользователя.
+2. Пишутся требования.
+3. Дизайнер создаёт дизайн страницы логина.
+4. Разработчик реализует логин.
+5. QA тестирует валидный вход, невалидный вход, пустые поля и выход из системы.
+6. Функция выпускается в релиз.
+7. Команда отслеживает проблемы пользователей после релиза.
 
-## My understanding
+## Моё понимание
 
-QA should not be involved only after development, because many problems can be found earlier: in requirements, design, logic and user scenarios. The later a defect is found, the more expensive it can be to fix.
+QA не должен подключаться только после разработки, потому что многие проблемы можно найти раньше: в требованиях, дизайне, логике и пользовательских сценариях. Чем позже найден дефект, тем дороже может обойтись его исправление.
 
-Waterfall is a sequential model where stages go one after another: requirements, design, development, testing and release. It can be useful when requirements are stable and documentation is very important.
+Waterfall — это последовательная модель, где этапы идут один за другим: требования, дизайн, разработка, тестирование и релиз. Она может быть полезна, когда требования стабильны и документация очень важна.
 
-Agile is an iterative approach where the product is developed in small parts. It allows the team to get feedback earlier and adapt to changes faster.
+Agile — это итеративный подход, при котором продукт разрабатывается небольшими частями. Он позволяет команде получать обратную связь раньше и быстрее адаптироваться к изменениям.
 
-Scrum is an Agile framework where work is organized in sprints.
+Scrum — это Agile-фреймворк, в котором работа организована в спринтах.
 
-Kanban is a workflow approach where tasks move through statuses such as Backlog, To Do, In Progress, Testing and Done.
+Kanban — это подход к организации работы, при котором задачи перемещаются по статусам, таким как Backlog, To Do, In Progress, Testing и Done.
 
-A task in Testing means that development is finished and QA is checking whether the feature works according to requirements.
+Задача в статусе Testing означает, что разработка завершена и QA проверяет, работает ли функция в соответствии с требованиями.
 
-QA can find problems before coding during requirements review.
+QA может находить проблемы ещё до написания кода — на этапе ревью требований.
