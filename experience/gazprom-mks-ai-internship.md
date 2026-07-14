@@ -53,8 +53,8 @@
 
 ## Подтверждение прохождения практики
 
-<!-- TODO: вставить фото/скан письма об успешном прохождении практики -->
-<!-- Пример: <img width="800" alt="Письмо о прохождении практики" src="ССЫЛКА_НА_ФОТО" /> -->
+<img width="1920" height="2560" alt="image" src="https://github.com/user-attachments/assets/9845e667-eada-4168-bade-c65577a83afa" />
+<img width="1920" height="2560" alt="image" src="https://github.com/user-attachments/assets/442fe56e-45f8-4001-8011-c858ce32127c" />
 
 ---
 
